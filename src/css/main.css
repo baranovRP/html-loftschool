@@ -1,0 +1,107 @@
+body {
+  min-width: 1000px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #000000;
+
+  background: #fbfcfd url(../img/bg.png) no-repeat center top;
+}
+
+img {
+  min-width: 100%;
+  height: auto;
+
+  vertical-align: top;
+
+  border: 0;
+}
+
+.page-header {
+  min-height: 119px;
+
+  background-color: #eff3f7;
+}
+
+.page-header__wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  display: block;
+  float: left;
+  width: 246px;
+  height: 42px;
+  padding: 0 10px;
+  padding-top: 39px;
+  padding-bottom: 38px;
+
+  font-size: 0;
+}
+
+.logo img {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.logo__ico {
+  min-width: 50px;
+  height: 40px;
+  padding-right: 14px;
+}
+
+.logo__text {
+  min-width: 179px;
+  height: 42px;
+}
+
+.social-links {
+  display: block;
+  float: right;
+  padding: 0 10px;
+  padding-top: 35px;
+}
+
+.social-links__btn {
+  display: inline-block;
+  width: 47px;
+  height: 47px;
+  margin-right: 24px;
+
+  font-size: 0;
+
+  background-color: #58697a;
+  background-image: url(../img/sprites.png);
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+
+.social-links__btn:last-child {
+  margin-right: 0;
+}
+
+.social-links__btn:hover {
+  background-color: #3ba8c0;
+}
+
+.social-links__btn--vk {
+  background-position: -2px -278px;
+}
+
+.social-links__btn--tw {
+  background-position: 2px -240px;
+}
+
+.social-links__btn--fb {
+  background-position: 7px -96px;
+}
+
+.social-links__btn--github {
+  background-position: -6px -143px;
+}
