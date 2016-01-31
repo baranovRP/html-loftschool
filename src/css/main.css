@@ -20,14 +20,14 @@ img {
   border: 0;
 }
 
-.l-clearfix:before,
-.l-clearfix:after {
+.l-clearfix::before,
+.l-clearfix::after {
   content: "";
 
   display: table;
 }
 
-.l-clearfix:after {
+.l-clearfix::after {
   clear: both;
 }
 
@@ -259,7 +259,7 @@ img {
   margin-bottom: 45px;
 }
 
-.resume__place:before {
+.resume__place::before {
   content: " ";
   position: absolute;
 
@@ -271,21 +271,21 @@ img {
   background-repeat: no-repeat;
 }
 
-.resume__place--briefcase:before {
+.resume__place--briefcase::before {
   top: 6px;
   left: 58px;
 
   background-position: -10px -53px;
 }
 
-.resume__place--academic-cap:before {
+.resume__place--academic-cap::before {
   top: 10px;
   left: 58px;
 
   background-position: -10px -10px;
 }
 
-.resume__place--paper:before {
+.resume__place--paper::before {
   top: 6px;
   left: 61px;
 
