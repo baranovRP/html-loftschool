@@ -150,6 +150,7 @@ img {
 
   font-size: 21px;
   line-height: 31px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
 
   background-color: #eff3f7;
   border-bottom-width: 2px;
@@ -176,12 +177,12 @@ img {
   display: block;
   padding: 20px 25px;
 
-  color: #3ba8c0;
+  color: #959aa8;
   text-decoration: none;
 }
 
 .main-nav__item a:hover {
-  color: #959aa8;
+  color: #3ba8c0;
 }
 
 .main-nav__item--active a {
@@ -189,6 +190,7 @@ img {
 
   font-size: 23px;
   line-height: 35px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
   color: #ffffff;
 }
 
@@ -198,9 +200,111 @@ img {
 
 .resume {
   float: right;
+  width: 650px;
+  padding-right: 10px;
 }
 
 .resume__section {
   float: left;
   width: 100%;
+  margin-bottom: 26px;
+
+  background-color: #eff3f7;
+}
+
+.resume__section:first-child {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.resume__section:last-child {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.resume__title {
+  margin: 0;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 22px;
+
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #3ba8c0;
+
+  border: 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #3ba8c0;
+  border-image: linear-gradient(to right, #3ba8c0 215px, transparent 215px) 0 0 1 0;
+}
+
+.resume__place {
+  position: relative;
+
+  margin-bottom: 20px;
+  padding-left: 124px;
+}
+
+.resume__place:first-of-type {
+  margin-top: 12px;
+}
+.resume__place:last-child {
+  margin-bottom: 45px;
+}
+
+.resume__place:before {
+  content: " ";
+  position: absolute;
+
+  width: 42px;
+  height: 34px;
+
+  background-color: transparent;
+  background-image: url(../img/sprites.png);
+  background-repeat: no-repeat;
+}
+
+.resume__place--briefcase:before {
+  top: 6px;
+  left: 58px;
+
+  background-position: -10px -53px;
+}
+
+.resume__place--academic-cap:before {
+  top: 10px;
+  left: 58px;
+
+  background-position: -10px -10px;
+}
+
+.resume__place--paper:before {
+  top: 6px;
+  left: 61px;
+
+  background-position: -5px -203px;
+}
+
+.resume__place p {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #4a545d;
+}
+
+.resume__date {
+  display: block;
+
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #4a545d;
 }
