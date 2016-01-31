@@ -120,7 +120,8 @@ img {
 }
 
 .page-main {
-  min-height: 573px;
+  min-height: 495px;
+  margin-bottom: 38px;
 }
 
 .page-main__wrapper {
@@ -218,6 +219,8 @@ img {
 }
 
 .resume__section:last-child {
+  margin-bottom: 0;
+
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
@@ -225,8 +228,8 @@ img {
 .resume__title {
   margin: 0;
   padding: 0;
-  padding-top: 15px;
-  padding-bottom: 14px;
+  padding-top: 13px;
+  padding-bottom: 13px;
   padding-left: 22px;
 
   font-weight: 400;
@@ -250,7 +253,7 @@ img {
 }
 
 .resume__place:first-of-type {
-  margin-top: 12px;
+  margin-top: 22px;
 }
 .resume__place:last-child {
   margin-bottom: 45px;
@@ -305,6 +308,30 @@ img {
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  color: #4a545d;
+}
+
+.page-footer {
+  min-height: 78px;
+
+  background-color: #eff3f7;
+}
+
+.page-footer__wrapper {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.copyright {
+  display: inline-block;
+  padding-top: 31px;
+  padding-left: 320px;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
   font-family: "PT Sans Narrow", Arial, sans-serif;
   color: #4a545d;
 }
