@@ -351,15 +351,16 @@ img {
   padding: 0 10px;
 }
 
-.logo{
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
   display: block;
   width: 216px;
   height: 39px;
-  position: absolute;
-  top: 50%;
-  padding-top: 168px;
-  left: 50%;
   margin-left: -122px;
+  padding-top: 168px;
 }
 
 .accordion-nav {
@@ -418,6 +419,7 @@ img {
   border-top: 12px solid #ff8663;
   border-right: 7px solid transparent;
   border-left: 7px solid transparent;
+  cursor: pointer;
 }
 
 .accordion-nav__item--show::before {
@@ -436,6 +438,7 @@ img {
   border-right: 7px solid transparent;
   border-bottom: 12px solid #ffffff;
   border-left: 7px solid transparent;
+  cursor: pointer;
 }
 
 .accordion-nav__item a {
@@ -466,7 +469,7 @@ img {
   color: #ffffff;
 }
 
-.accordion-nav__item-int{
+.accordion-nav__item-int {
   padding-left: 20px;
 
   font-weight: 300;
