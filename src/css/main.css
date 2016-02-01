@@ -242,6 +242,8 @@ img {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #3ba8c0;
+  -webkit-border-image: -webkit-linear-gradient(left, #3ba8c0 215px, transparent 215px) 0 0 1 0;
+  -o-border-image: linear-gradient(to right, #3ba8c0 215px, transparent 215px) 0 0 1 0;
   border-image: linear-gradient(to right, #3ba8c0 215px, transparent 215px) 0 0 1 0;
 }
 
