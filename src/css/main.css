@@ -455,10 +455,6 @@ img {
   border-radius: 20px;
 }
 
-.accordion-nav__item.accordion-nav__item--show a {
-  background-color: #ff8663;
-}
-
 .accordion-nav__item:nth-child(odd) a {
   color: #ffffff;
 }
@@ -467,7 +463,8 @@ img {
   color: #4f4f4f;
 }
 
-.accordion-nav__item--show a {
+.accordion-nav__item.accordion-nav__item--show a {
+  background-color: #ff8663;
   color: #ffffff;
 }
 
