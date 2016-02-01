@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>LOFTSCHOOL - html test</title>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Fira+Sans:300,500&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main class="accordion-main">
+  <div class="accordion-main__wrapper">
+    <div class="logo">
+      <a href="accordion.html">
+        <img src="img/logo-accordion.png" width="216" height="39" alt="Аккордион">
+      </a>
+    </div>
+    <nav class="accordion-nav">
+      <ul>
+        <li class="accordion-nav__item  accordion-nav__item--show">
+          <a href="#">Основы языка и как на нём говорить правильно</a>
+          <ul class="accordion-nav__int accordion-nav__int--show">
+            <li class="accordion-nav__item-int">Лексическая структура</li>
+            <li class="accordion-nav__item-int">Типы данных, значения и переменные</li>
+            <li class="accordion-nav__item-int">Выражения и операторы инструкции</li>
+          </ul>
+        </li>
+        <li class="accordion-nav__item">
+          <a href="#">Функции</a>
+          <ul class="accordion-nav__int  accordion-nav__int--hidden">
+            <li class="accordion-nav__item-int">Виды функций</li>
+            <li class="accordion-nav__item-int">Всплывание/поднятие переменных</li>
+            <li class="accordion-nav__item-int">Область видимости переменных</li>
+            <li class="accordion-nav__item-int">Шаблоны вызова функций</li>
+          </ul>
+        </li>
+        <li class="accordion-nav__item">
+          <a href="#">Обработка ошибок и отладка</a>
+          <ul class="accordion-nav__int  accordion-nav__int--hidden">
+            <li class="accordion-nav__item-int">Консоль и dev tools</li>
+            <li class="accordion-nav__item-int">Типичные проблемы</li>
+            <li class="accordion-nav__item-int">Обработка ошибок</li>
+            <li class="accordion-nav__item-int">Порядок выполнения</li>
+          </ul>
+        </li>
+        <li class="accordion-nav__item">
+          <a href="#">Объекты и массивы</a>
+          <ul class="accordion-nav__int  accordion-nav__int--hidden">
+            <li class="accordion-nav__item-int">Получение и изменение св-в</li>
+            <li class="accordion-nav__item-int">Удаление св-в</li>
+            <li class="accordion-nav__item-int">Методы класса Object()</li>
+            <li class="accordion-nav__item-int">Длина массива</li>
+          </ul>
+        </li>
+        <li class="accordion-nav__item">
+          <a href="#">События</a>
+          <ul class="accordion-nav__int  accordion-nav__int--hidden">
+            <li class="accordion-nav__item-int">Типы событий</li>
+            <li class="accordion-nav__item-int">Регистрация обработчиков событий</li>
+            <li class="accordion-nav__item-int">Вызов обработчиков событий</li>
+            <li class="accordion-nav__item-int">События загрузки документа</li>
+            <li class="accordion-nav__item-int">События мыши</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</main>
+<script src="js/accordion.js"></script>
+</body>
+</html>
